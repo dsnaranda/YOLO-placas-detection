@@ -1,0 +1,13 @@
+train: C:/Users/HP R7/Documents/Universidad/10mo/Proyecto IA/Entrenamiento-Placas/placas_dataset/train/images
+val:   C:/Users/HP R7/Documents/Universidad/10mo/Proyecto IA/Entrenamiento-Placas/placas_dataset/valid/images
+test:  C:/Users/HP R7/Documents/Universidad/10mo/Proyecto IA/Entrenamiento-Placas/placas_dataset/test/images
+
+nc: 1
+names: ['placa']
+
+roboflow:
+  workspace: placas-yenot
+  project: my-first-project-uw42b
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/placas-yenot/my-first-project-uw42b/dataset/1
