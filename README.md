@@ -1,22 +1,31 @@
-Change absolute paths to the ones you are using or use relative paths.
+# YOLO Plate Detection Project
+Change absolute paths to the ones you are using **or use relative paths**.
+---
+## Dataset Structure
+The dataset should be organized as follows:
 
-The dataset structure should be:
 placas_dataset/
- ├── train/
- │   ├── images/
- │   └── labels/
- ├── valid/
- │   ├── images/
- │   └── labels/
- ├── test/
- │   ├── images/
- │   └── labels/
- └── data.yaml
+├── train/
+│ ├── images/
+│ └── labels/
+├── valid/
+│ ├── images/
+│ └── labels/
+├── test/
+│ ├── images/
+│ └── labels/
+└── data.yaml
 
-If you have XML files, convert them to TXT with:
+---
+## XML to TXT Conversion
+If you have XML annotation files, convert them to TXT with:
+
 xml_to_text/
- └── Convercion.py
+└── Conversion.py
 
- Remove the xml files to avoid noise: 
- xml_to_text/
- └── Eliminar.py
+---
+## Remove XML Files
+To avoid noise, remove the XML files using:
+
+xml_to_text/
+└── Eliminar.py
