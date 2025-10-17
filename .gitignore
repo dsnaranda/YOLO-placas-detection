@@ -3,12 +3,6 @@ placas_dataset/train/
 placas_dataset/valid/
 placas_dataset/test/
 
-# Ignorar pesos generados por YOLO
-runs/
-
-# Ignorar resultados de test/evaluación
-results/
-
 # Ignorar archivos temporales de Python
 __pycache__/
 *.pyc
